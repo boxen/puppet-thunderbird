@@ -1,4 +1,4 @@
-# Thunderbird Puppet Module for Boxen
+# Thunderbird Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-thunderbird.png)](https://travis-ci.org/boxen/puppet-thunderbird)
 
 Install [Thunderbird](https://www.mozilla.org/en-US/thunderbird/), a free email application.
 
