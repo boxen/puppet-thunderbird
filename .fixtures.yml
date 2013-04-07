@@ -1,3 +1,0 @@
-fixtures:
-  symlinks:
-    "thunderbird": "#{source_dir}"
