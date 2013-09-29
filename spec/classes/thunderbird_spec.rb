@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'thunderbird' do
 
-  version = '17.0.5'
+  version = '24.0'
 
   it { should contain_class('thunderbird') }
   it { should contain_package("Thunderbird-#{version}").with_provider('appdmg') }
