@@ -7,6 +7,14 @@ Install [Thunderbird](https://www.mozilla.org/en-US/thunderbird/), a free email 
 ```puppet
 include thunderbird
 ```
+or with version and locale specification
+
+```puppet
+class { 'thunderbird':
+  version => '24.0',
+  locale  => 'fr',
+}
+```
 
 ## Required Puppet Modules
 
