@@ -1,7 +1,8 @@
-rvm: 
+rvm:
 - 1.8.7
+- 2.0.0
 script: ./script/cibuild
 gemfile: this/does/not/exist
-before_install: 
+before_install:
 - gem update --system 2.1.11
 - gem --version
