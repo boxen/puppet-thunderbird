@@ -16,7 +16,7 @@ describe 'thunderbird' do
       { :locale => 'fr' }
     end
 
-    it { should contain_package("Thunderbird-#{version}").with_source("http://download-origin.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/#{version}/mac/#{locale}/Thunderbird%20#{version}.dmg") }
+    it { should contain_package("Thunderbird-#{version}").with_source("http://download-origin.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/#{version}/mac/fr/Thunderbird%20#{version}.dmg") }
   end
 
 end
