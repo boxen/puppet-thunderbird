@@ -11,7 +11,7 @@ or with version and locale specification
 
 ```puppet
 class { 'thunderbird':
-  version => '24.2.0',
+  version => '24.3.0',
   locale  => 'fr',
 }
 ```
