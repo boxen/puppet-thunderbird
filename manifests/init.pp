@@ -4,11 +4,11 @@
 #
 #  include thunderbird
 #  class { 'thunderbird':
-#    version => '24.2.0',
+#    version => '24.3.0',
 #    locale  => 'fr',
 #  }
 #
-class thunderbird($version='24.2.0', $locale = 'en-US') {
+class thunderbird($version='24.3.0', $locale = 'en-US') {
 
   package { "Thunderbird-${version}":
     provider => 'appdmg',
