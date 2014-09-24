@@ -8,7 +8,7 @@
 #    locale  => 'fr',
 #  }
 #
-class thunderbird($version='24.3.0', $locale = 'en-US') {
+class thunderbird($version='31.1.1', $locale = 'en-US') {
 
   package { "Thunderbird-${version}":
     provider => 'appdmg',
